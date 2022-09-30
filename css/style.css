@@ -1,0 +1,63 @@
+@charset "UTF-8";
+
+body{
+    font-family: "Hiragino Kaku Gothic Pro", "Meiryo", "sans-serif";
+    font-size: 16px;
+}
+.logo{
+    text-align: center;
+}
+.logo img{
+    width: 100px;
+    height: 100px;
+}
+.header{
+    width: 600px;
+    /*上下のマージンが0、左右がオート*/
+    margin: 0 auto;
+}
+.header ul{
+    display: flex;
+}
+.header ul li{
+    width: 200px;
+    text-align: center;
+    border-right: 2px solid pink;
+}
+.header ul li:first-child{
+    border-left: 2px solid pink;
+}
+.header ul li a{
+    display: block;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+ul{
+    list-style-type: none;
+}
+.header_img{
+    text-align: center;
+}
+.header_img img{
+    width: 1500px;
+}
+.container_movies h2{
+    font-weight: 500;
+    font-size: 24px;
+    text-align: center;
+}
+.container_movies{
+    width: 1500px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.ttl{
+    font-weight: 500;
+    text-align: center;
+}
+.movies_block{
+    display: flex;
+    justify-content: space-between;
+}
